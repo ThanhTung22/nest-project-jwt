@@ -14,8 +14,8 @@ import {
 import { Message } from '../../messages/entities/message.entity';
 import { Conversation } from '../../conversations/entities/conversation.entity';
 import { Profile } from '../../profiles/entities/profile.entity';
-import { Information } from "../../information/entities/information.entity";
-import { UserConversation } from "../../user_conversation/entities/user-conversation.entity";
+import { Information } from '../../information/entities/information.entity';
+import { UserConversation } from '../../user_conversation/entities/user-conversation.entity';
 
 @Entity({ name: 'users' })
 export class User implements IUser {

@@ -12,7 +12,7 @@ import {
 import { Emojis, Backgrounds } from '../interfaces/conversation.interface';
 import { User } from '../../users/entities/user.entity';
 import { Message } from '../../messages/entities/message.entity';
-import { UserConversation } from "../../user_conversation/entities/user-conversation.entity";
+import { UserConversation } from '../../user_conversation/entities/user-conversation.entity';
 
 @Entity({ name: 'conversations' })
 export class Conversation implements IConversation {
